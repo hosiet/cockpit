@@ -2,24 +2,25 @@
 # 1dot75cm <sensor.wen@gmail.com>, 2016
 # mosquito <sensor.wen@gmail.com>, 2016. #zanata
 # vanlos wang <vanloswang@126.com>, 2016. #zanata
+# Boyuan Yang <073plan@gmail.com>, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-02 13:53+0200\n"
-"PO-Revision-Date: 2016-12-06 04:32-0500\n"
-"Last-Translator: vanlos wang <vanloswang@126.com>\n"
-"Language-Team: Chinese (China)\n"
-"Language: zh-CN\n"
+"PO-Revision-Date: 2017-05-12 17:03+0800\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <debian-l10n-chinese@lists.debian.org>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Zanata 3.9.6\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: Poedit 1.8.11\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: pkg/docker/storage.jsx:244
 msgid " (shared with the OS)"
-msgstr " (与操作系统共享)"
+msgstr "（与操作系统共享）"
 
 #: pkg/kubernetes/views/node-delete.html:8
 msgid " 1\"Do you want to delete the following Nodes?"
@@ -85,9 +86,8 @@ msgid_plural "$0 disks are missing"
 msgstr[0] "$0 磁盘缺失"
 
 #: src/ws/login.js:279 src/ws/login.js:601
-#, fuzzy
 msgid "$0 error"
-msgstr "错误"
+msgstr "$0 错误"
 
 #: src/base1/cockpit.js:2662
 msgid "$0 exited with code $1"
@@ -155,12 +155,12 @@ msgstr[0] "$0 年"
 #, c-format
 msgid "$0% Free"
 msgid_plural "$0% Free"
-msgstr[0] "$0% 空闲的"
+msgstr[0] "$0% 空闲"
 
 #: pkg/kubernetes/scripts/nodes.js:872
 msgid "$0% Used"
 msgid_plural "$0% Used"
-msgstr[0] "$0% 已使用的"
+msgstr[0] "$0% 已使用"
 
 #: pkg/storaged/details.js:503
 msgid "$0, $1 free"
@@ -747,9 +747,8 @@ msgid "Administrator Password"
 msgstr "管理员密码"
 
 #: pkg/systemd/services.html:397
-#, fuzzy
 msgid "After"
-msgstr "以后"
+msgstr ""
 
 #: pkg/systemd/services.html:388 pkg/systemd/services.html:392
 msgid "After system boot"
@@ -873,12 +872,10 @@ msgid "Authentication Failed"
 msgstr "认证失败"
 
 #: src/ws/login.js:581
-#, fuzzy
 msgid "Authentication Failed: Server closed connection"
-msgstr "认证失败"
+msgstr "认证失败：服务器已关闭连接"
 
 #: src/ws/login.js:591
-#, fuzzy
 msgid "Authentication failed"
 msgstr "认证失败"
 
@@ -954,7 +951,7 @@ msgstr "平衡器"
 
 #: pkg/ostree/index.html:68
 msgid "Begins with '-----BEGIN PGP PUBLIC KEY BLOCK-----'"
-msgstr ""
+msgstr "以“-----BEGIN PGP PUBLIC KEY BLOCK-----”起始"
 
 #: pkg/storaged/index.html:558
 msgctxt "storage"
@@ -1445,11 +1442,11 @@ msgstr "兼容现代系统，且支持磁盘 > 2TB (GPT)"
 
 #: pkg/kdump/kdump-view.jsx:198
 msgid "Compress crash dumps to save space"
-msgstr ""
+msgstr "将崩溃转储信息进行压缩以节约空间"
 
 #: pkg/kdump/kdump-view.jsx:189
 msgid "Compression"
-msgstr ""
+msgstr "压缩"
 
 #: pkg/realmd/operation.html:28
 msgid "Computer OU"
@@ -1506,9 +1503,8 @@ msgid "Connect automatically"
 msgstr "自动连接"
 
 #: src/ws/login.html:75
-#, fuzzy
 msgid "Connect to"
-msgstr "连接"
+msgstr "连接到"
 
 #: pkg/lib/machine-add.html:39
 msgid ""
@@ -1521,12 +1517,11 @@ msgstr "正在连接 Docker"
 
 #: pkg/ostree/index.html:418
 msgid "Connecting to OSTree"
-msgstr "连接到系统树"
+msgstr "连接到 OSTree"
 
 #: pkg/selinux/setroubleshoot-view.jsx:352
-#, fuzzy
 msgid "Connecting to SETroubleshoot daemon..."
-msgstr "连接到系统树"
+msgstr ""
 
 #: pkg/shell/indexes.js:317
 msgid "Connecting to the machine"
@@ -1537,7 +1532,6 @@ msgid "Connecting..."
 msgstr "连接中..."
 
 #: pkg/machines/hostvmslist.jsx:349
-#, fuzzy
 msgid "Connection"
 msgstr "连接"
 
@@ -1692,9 +1686,8 @@ msgid "Couldn't list users"
 msgstr "不能列出用户"
 
 #: pkg/ostree/remotes.js:175
-#, fuzzy
 msgid "Couldn't load settings for '$0': $1"
-msgstr "不能载入用户数据"
+msgstr "不能载入“$0”的设置：$1"
 
 #: src/bridge/cockpitdbussetup.c:382
 msgid "Couldn't load user data"
@@ -1766,9 +1759,8 @@ msgstr "创建镜像流"
 
 #: pkg/networkmanager/interfaces.js:3632 pkg/networkmanager/interfaces.js:3825
 #: pkg/networkmanager/interfaces.js:4064 pkg/networkmanager/interfaces.js:4270
-#, fuzzy
 msgid "Create it"
-msgstr "创建"
+msgstr "创建它"
 
 #: pkg/storaged/content-views.jsx:746
 msgid "Create new Logical Volume"
@@ -1860,7 +1852,7 @@ msgstr "当前启动"
 
 #: pkg/ostree/index.html:184
 msgid "Currently using:"
-msgstr ""
+msgstr "正在使用："
 
 #: pkg/storaged/fsys-tab.jsx:126 pkg/storaged/format-dialog.jsx:174
 msgid "Custom"
@@ -2214,9 +2206,8 @@ msgstr ""
 "displayRole }}'？"
 
 #: bower_components/registry-image-widgets/views/image-meta.html:11
-#, fuzzy
 msgid "Docker Version"
-msgstr "内核版本"
+msgstr "Docker 版本"
 
 #: pkg/docker/index.html:60
 msgid "Docker is not installed or activated on the system"
@@ -2308,9 +2299,8 @@ msgid "Edit Server"
 msgstr "编辑服务器"
 
 #: bower_components/registry-image-widgets/views/imagestream-body.html:7
-#, fuzzy
 msgid "Edit image stream"
-msgstr "新建镜像流"
+msgstr "编辑镜像流"
 
 #: pkg/storaged/jobs.js:117
 msgid "Ejecting $target"
@@ -2404,9 +2394,8 @@ msgid "Entry"
 msgstr "条目"
 
 #: pkg/docker/containers-view.jsx:309
-#, fuzzy
 msgid "Entrypoint"
-msgstr "入口点："
+msgstr "入口点"
 
 #: pkg/docker/index.html:515 pkg/kubernetes/views/container-body.html:26
 #: bower_components/registry-image-widgets/views/image-config.html:21
@@ -2474,9 +2463,8 @@ msgid "Errors"
 msgstr "错误"
 
 #: pkg/networkmanager/index.html:800
-#, fuzzy
 msgid "Ethernet MAC"
-msgstr "以太网 MTU"
+msgstr "以太网 MAC"
 
 #: pkg/networkmanager/index.html:776
 msgid "Ethernet MTU"
@@ -2516,11 +2504,11 @@ msgstr "失败"
 
 #: pkg/machines/libvirt.es6:174
 msgid "FORCEOFF_VM action failed"
-msgstr ""
+msgstr "FORCEOFF_VM 操作失败"
 
 #: pkg/machines/libvirt.es6:194
 msgid "FORCEREBOOT_VM action failed"
-msgstr ""
+msgstr "FORCEBOOT_VM 操作失败"
 
 #: pkg/ostree/index.html:258 pkg/networkmanager/interfaces.js:749
 msgid "Failed"
@@ -2864,9 +2852,8 @@ msgid "Id:"
 msgstr "编号："
 
 #: bower_components/registry-image-widgets/views/image-body.html:22
-#, fuzzy
 msgid "Identifier"
-msgstr "身份"
+msgstr "标识符"
 
 #: pkg/kubernetes/views/user-panel.html:18
 #: pkg/kubernetes/views/user-page.html:23
@@ -2936,7 +2923,6 @@ msgid "Images"
 msgstr "镜像"
 
 #: pkg/docker/image.js:42
-#, fuzzy
 msgctxt "page-title"
 msgid "Images"
 msgstr "镜像"
@@ -3067,9 +3053,8 @@ msgid "Invalid key"
 msgstr "无效的 key"
 
 #: pkg/networkmanager/utils.js:58
-#, fuzzy
 msgid "Invalid metric $0"
-msgstr "无效的编号。"
+msgstr "无效的跃点数 $0"
 
 #: pkg/systemd/init.js:1166
 msgid "Invalid number."
@@ -3080,14 +3065,12 @@ msgid "Invalid port"
 msgstr "无效端口"
 
 #: pkg/networkmanager/utils.js:44
-#, fuzzy
 msgid "Invalid prefix $0"
-msgstr "无效端口"
+msgstr "无效前缀 $0"
 
 #: pkg/networkmanager/utils.js:133
-#, fuzzy
 msgid "Invalid prefix or netmask $0"
-msgstr "无效端口"
+msgstr "无效前缀或网络掩码 $0"
 
 #: pkg/systemd/shutdown.js:140 pkg/systemd/host.js:1226
 msgid "Invalid time format"
@@ -3123,9 +3106,8 @@ msgid "Join Domain"
 msgstr "加入域"
 
 #: pkg/realmd/operation.js:95
-#, fuzzy
 msgid "Join a Domain"
-msgstr "加入域"
+msgstr "加入一个域"
 
 #: pkg/realmd/operation.js:346
 msgid "Joining this domain is not supported"
@@ -3146,7 +3128,7 @@ msgstr "未找到日志条目"
 #: pkg/kdump/kdump-view.jsx:461
 msgid ""
 "Kdump service not installed. Please ensure package kexec-tools is installed."
-msgstr ""
+msgstr "Kdump 服务未安装。请确保 kexec-tools 软件包已经安装。"
 
 #: pkg/networkmanager/index.html:850
 msgid "Keep connection"
@@ -3169,9 +3151,8 @@ msgid "Kernel Version"
 msgstr "内核版本"
 
 #: pkg/kdump/index.html:23
-#, fuzzy
 msgid "Kernel dump configuration"
-msgstr "错误的配置"
+msgstr "内核转储配置"
 
 #: pkg/kubernetes/views/volume-body.html:67
 msgid "Key Ring Path"
@@ -3236,9 +3217,8 @@ msgid "Leave"
 msgstr "离开"
 
 #: pkg/realmd/operation.js:100
-#, fuzzy
 msgid "Leave Domain"
-msgstr "域"
+msgstr "离开域"
 
 #: pkg/dashboard/index.html:147
 msgid ""
@@ -3316,14 +3296,12 @@ msgid "Local Disks"
 msgstr "本地磁盘"
 
 #: pkg/kdump/kdump-view.jsx:159
-#, fuzzy
 msgid "Local Filesystem"
-msgstr "无文件系统"
+msgstr "本地文件系统"
 
 #: pkg/kdump/kdump-view.jsx:174
-#, fuzzy
 msgid "Location"
-msgstr "挂载位置"
+msgstr "位置"
 
 #: pkg/storaged/content-views.jsx:209
 msgid "Lock"
@@ -3410,7 +3388,7 @@ msgstr "注册需要登录/密码或激活密钥。"
 
 #: src/ws/login.js:253
 msgid "Logout Successful"
-msgstr ""
+msgstr "登出成功"
 
 #: pkg/systemd/logs.html:60 pkg/kubernetes/views/container-page-inline.html:8
 #: pkg/kubernetes/views/container-panel.html:6
@@ -3423,7 +3401,7 @@ msgstr "连接失败。请重新连接"
 
 #: pkg/networkmanager/index.html:184 pkg/networkmanager/index.html:323
 msgid "MAC"
-msgstr ""
+msgstr "MAC"
 
 #: pkg/docker/index.html:182
 msgid "MAC Address:"
@@ -4812,7 +4790,7 @@ msgstr "RAID 成员"
 
 #: pkg/machines/libvirt.es6:184
 msgid "REBOOT_VM action failed"
-msgstr ""
+msgstr "REBOOT_VM 操作失败"
 
 #: pkg/kubernetes/scripts/volumes.js:200
 msgid "Rados Block Device"
@@ -4867,9 +4845,8 @@ msgid "Reading"
 msgstr "读取中"
 
 #: pkg/kdump/kdump-view.jsx:412
-#, fuzzy
 msgid "Reading..."
-msgstr "读取中"
+msgstr "读取中..."
 
 #: pkg/playground/translate.html:19 pkg/playground/translate.html:179
 #: pkg/kubernetes/views/details-page.html:52
@@ -4958,9 +4935,8 @@ msgid "Reformat and add disks"
 msgstr "格式化并添加磁盘"
 
 #: src/ws/login.js:587
-#, fuzzy
 msgid "Refusing to connect. Host is unknown"
-msgstr "测试连接"
+msgstr "拒绝连接。主机未知"
 
 #: src/ws/login.js:589
 msgid "Refusing to connect. Hostkey does not match"
@@ -5270,14 +5246,12 @@ msgid "Run Image"
 msgstr "运行镜像"
 
 #: bower_components/registry-image-widgets/views/image-config.html:8
-#, fuzzy
 msgid "Run as"
-msgstr "运行镜像"
+msgstr ""
 
 #: pkg/networkmanager/index.html:423
-#, fuzzy
 msgid "Runner"
-msgstr "分流道"
+msgstr ""
 
 #: pkg/ostree/index.html:251 pkg/storaged/details.js:389
 msgid "Running"
@@ -5296,9 +5270,8 @@ msgid "SELinux Troubleshoot"
 msgstr "SELinux 排错"
 
 #: pkg/selinux/setroubleshoot-view.jsx:337
-#, fuzzy
 msgid "SELinux is disabled on the system"
-msgstr "该系统上 SELinux 已禁用。"
+msgstr "该系统上 SELinux 已禁用"
 
 #: pkg/selinux/setroubleshoot-view.jsx:273
 msgid "SELinux is disabled on the system."
@@ -5309,18 +5282,16 @@ msgid "SELinux system status is unknown."
 msgstr "SELinux 系统状态未知。"
 
 #: pkg/machines/libvirt.es6:164
-#, fuzzy
 msgid "SHUTDOWN_VM action failed"
-msgstr "方案失败"
+msgstr "SHUTDOWN_VM 操作失败"
 
 #: pkg/storaged/jobs.js:116
 msgid "SMART self-test of $target"
 msgstr "$target SMART 自检"
 
 #: pkg/machines/libvirt.es6:204
-#, fuzzy
 msgid "START_VM action failed"
-msgstr "方案失败"
+msgstr "START_VM 操作失败"
 
 #: pkg/networkmanager/index.html:242
 msgid "STP Forward delay"
@@ -5462,29 +5433,24 @@ msgid "Service Logs"
 msgstr "服务日志"
 
 #: pkg/kdump/kdump-view.jsx:441
-#, fuzzy
 msgid "Service has an error"
-msgstr "服务名称"
+msgstr "服务出现错误"
 
 #: pkg/kdump/kdump-view.jsx:437
-#, fuzzy
 msgid "Service is running"
-msgstr "虚拟机正在运行。"
+msgstr "服务正在运行"
 
 #: pkg/kdump/kdump-view.jsx:443
-#, fuzzy
 msgid "Service is starting"
-msgstr "正在重启主机"
+msgstr "服务正在启动"
 
 #: pkg/kdump/kdump-view.jsx:439
-#, fuzzy
 msgid "Service is stopped"
-msgstr "服务"
+msgstr "服务已停止"
 
 #: pkg/kdump/kdump-view.jsx:445
-#, fuzzy
 msgid "Service is stopping"
-msgstr "服务日志"
+msgstr "服务正在停止"
 
 #: pkg/systemd/services.html:341
 msgid "Service name"
@@ -5505,9 +5471,8 @@ msgstr ""
 "服务组织容器舱并提供一个通用DNS名称和一个可选的负载均衡的IP地址来访问它们。"
 
 #: pkg/machines/helpers.es6:100
-#, fuzzy
 msgid "Session"
-msgstr "版本"
+msgstr "会话"
 
 #: pkg/kubernetes/views/service-body.html:20
 msgid "Session Affinity"
@@ -5708,7 +5673,7 @@ msgstr "抱歉，不知道如何修改该卷"
 
 #: bower_components/registry-image-widgets/views/image-body.html:8
 msgid "Source URL"
-msgstr ""
+msgstr "源 URL"
 
 #: pkg/networkmanager/interfaces.js:2679
 msgid "Spanning Tree Protocol"
@@ -5727,9 +5692,8 @@ msgid "Specific Time"
 msgstr "指定时间"
 
 #: pkg/networkmanager/interfaces.js:3447
-#, fuzzy
 msgid "Stable"
-msgstr "启用"
+msgstr "稳定"
 
 #: pkg/docker/index.html:132 pkg/storaged/details.js:427
 #: pkg/storaged/swap-tab.jsx:76 pkg/docker/containers-view.jsx:232
@@ -5876,7 +5840,7 @@ msgstr "订阅"
 
 #: bower_components/registry-image-widgets/views/image-body.html:4
 msgid "Summary"
-msgstr ""
+msgstr "概要"
 
 #: pkg/systemd/services.html:183
 msgid "Sunday"
@@ -6025,18 +5989,16 @@ msgid "Terminate Session"
 msgstr "终止会话"
 
 #: pkg/kdump/kdump-view.jsx:475 pkg/kdump/kdump-view.jsx:482
-#, fuzzy
 msgid "Test Configuration"
-msgstr "配置"
+msgstr "测试配置"
 
 #: pkg/kdump/kdump-view.jsx:480
 msgid "Test is only available while the kdump service is running."
-msgstr ""
+msgstr "测试仅在 kdump 服务运行时可用。"
 
 #: pkg/kdump/kdump-view.jsx:300
-#, fuzzy
 msgid "Test kdump settings"
-msgstr "组设置"
+msgstr "测试 kdump 设置"
 
 #: pkg/networkmanager/index.html:38
 msgid "Testing connection"
@@ -6319,9 +6281,8 @@ msgid "This field cannot be empty."
 msgstr "该字段不能为空。"
 
 #: pkg/docker/containers-view.jsx:392
-#, fuzzy
 msgid "This image does not exist."
-msgstr "容器舱 '{{ target }}' 不存在。"
+msgstr "该镜像不存在。"
 
 #: pkg/storaged/lvol-tabs.jsx:96
 msgid "This logical volume cannot be made smaller."
@@ -6398,7 +6359,7 @@ msgstr "该卷未被声明"
 
 #: src/ws/login.js:129
 msgid "This web browser is too old to run Cockpit (missing $0)"
-msgstr ""
+msgstr "该网页浏览器版本过旧，无法运行 Cockpit（缺失 $0）"
 
 #: pkg/kdump/kdump-view.jsx:303
 msgid ""
@@ -6433,9 +6394,8 @@ msgstr ""
 "密码来自动认证                                                    其他系统。"
 
 #: bower_components/registry-image-widgets/views/image-pull.html:4
-#, fuzzy
 msgid "To pull this image:"
-msgstr "拉取镜像:"
+msgstr "要拉取镜像："
 
 #: bower_components/registry-image-widgets/views/imagestream-push.html:4
 #, fuzzy
@@ -6454,7 +6414,7 @@ msgstr "令牌"
 
 #: src/base1/cockpit.js:3941
 msgid "Too much data"
-msgstr ""
+msgstr "数据过多"
 
 #: pkg/shell/index.html:290 pkg/shell/stub.html:145
 msgid "Tools"
@@ -6486,7 +6446,6 @@ msgid "Trust this certificate for this connection"
 msgstr "为该连接信任该证书"
 
 #: src/ws/login.html:112
-#, fuzzy
 msgid "Try Again"
 msgstr "重试"
 
@@ -6565,9 +6524,8 @@ msgid "UUID"
 msgstr "UUID"
 
 #: pkg/kdump/kdump-view.jsx:288
-#, fuzzy
 msgid "Unable to apply settings: $0"
-msgstr "无法获取警告： $0"
+msgstr "无法应用设置：$0"
 
 #: pkg/selinux/setroubleshoot-view.jsx:114
 msgid "Unable to apply this solution automatically"
@@ -6582,9 +6540,8 @@ msgid "Unable to connect"
 msgstr "无法连接"
 
 #: src/ws/login.js:583
-#, fuzzy
 msgid "Unable to connect to that address"
-msgstr "无法连接"
+msgstr "无法连接到该地址"
 
 #: pkg/kubernetes/scripts/dashboard.js:413
 msgid "Unable to decode Kubernetes application manifest."
@@ -6776,11 +6733,11 @@ msgstr "使用以下密钥来认证其他系统"
 
 #: pkg/kdump/kdump-view.jsx:162
 msgid "Use the setting in /etc/kdump.conf"
-msgstr ""
+msgstr "使用 /etc/kdump.conf 中的设置"
 
 #: pkg/ostree/index.html:59 pkg/ostree/index.html:121
 msgid "Use trusted GPG key"
-msgstr ""
+msgstr "使用信任的 GPG 密钥"
 
 #: pkg/systemd/index.html:251 pkg/storaged/fsys-tab.jsx:225
 #: pkg/storaged/swap-tab.jsx:82 pkg/docker/storage.jsx:315
@@ -6791,9 +6748,8 @@ msgid "Used"
 msgstr "已使用"
 
 #: pkg/docker/index.html:252
-#, fuzzy
 msgid "Used by Containers"
-msgstr "容器"
+msgstr "被容器使用"
 
 #: pkg/playground/translate.html:85 pkg/playground/translate.html:105
 #: pkg/systemd/index.html:229 pkg/dashboard/index.html:142
@@ -6821,9 +6777,8 @@ msgid "User name"
 msgstr "用户名"
 
 #: src/ws/login.js:393
-#, fuzzy
 msgid "User name cannot be empty"
-msgstr "名称不能为空。"
+msgstr "用户名不能为空"
 
 #: pkg/kubernetes/views/add-member-role-dialog.html:15
 msgid "User or Group"
@@ -6861,7 +6816,7 @@ msgstr "VLAN 设置"
 
 #: src/ws/login.html:102
 msgid "Validating authentication token"
-msgstr ""
+msgstr "正在验证认证凭据"
 
 #: pkg/users/authorized-keys.js:104
 msgid "Validating key"
@@ -6973,9 +6928,8 @@ msgid "Writing objects"
 msgstr "正在写对象"
 
 #: src/ws/login.js:593
-#, fuzzy
 msgid "Wrong user name or password"
-msgstr "无效的用户名或密码"
+msgstr "错误的用户名或密码"
 
 #: pkg/storaged/format-dialog.jsx:103
 msgid "XFS - Red Hat Enterprise Linux 7 default"
@@ -7068,18 +7022,16 @@ msgid "bytes"
 msgstr "字节"
 
 #: pkg/machines/helpers.es6:108
-#, fuzzy
 msgid "crashed"
-msgstr "虚拟机已崩溃。"
+msgstr "已崩溃"
 
 #: pkg/docker/util.js:122
 msgid "default"
 msgstr "默认"
 
 #: pkg/machines/helpers.es6:95
-#, fuzzy
 msgid "disabled"
-msgstr "禁用"
+msgstr "已禁用"
 
 #: pkg/machines/helpers.es6:109
 msgid "dying"
@@ -7094,9 +7046,8 @@ msgid "eg: my-image-stream"
 msgstr "例如：my-image-stream"
 
 #: pkg/machines/helpers.es6:96
-#, fuzzy
 msgid "enabled"
-msgstr "启用"
+msgstr "已启用"
 
 #: pkg/storaged/format-dialog.jsx:104
 msgid "ext4 - Red Hat Enterprise Linux 6 default"
@@ -7120,7 +7071,7 @@ msgstr ""
 
 #: pkg/kdump/kdump-view.jsx:491
 msgid "kdump status"
-msgstr ""
+msgstr "kdump 状态"
 
 #: pkg/docker/run.js:526
 msgid "key"
@@ -7145,7 +7096,7 @@ msgstr "空"
 
 #: pkg/machines/helpers.es6:105
 msgid "paused"
-msgstr ""
+msgstr "已暂停"
 
 #: pkg/kubernetes/views/dashboard-page.html:83
 msgid "pending volume claims"
@@ -7156,7 +7107,6 @@ msgid "recommended"
 msgstr "推荐"
 
 #: pkg/machines/helpers.es6:103
-#, fuzzy
 msgid "running"
 msgstr "运行中"
 
@@ -7174,11 +7124,11 @@ msgstr "共享"
 
 #: pkg/machines/helpers.es6:107
 msgid "shut off"
-msgstr ""
+msgstr "关闭"
 
 #: pkg/machines/helpers.es6:106
 msgid "shutdown"
-msgstr ""
+msgstr "关机"
 
 #: pkg/selinux/setroubleshoot-view.jsx:118
 msgid "solution details"
@@ -7186,7 +7136,7 @@ msgstr "方案详情"
 
 #: pkg/kdump/kdump-view.jsx:141
 msgid "ssh key"
-msgstr ""
+msgstr "ssh 密钥"
 
 #: pkg/machines/helpers.es6:110
 msgid "suspended (PM)"
@@ -7229,6 +7179,8 @@ msgid ""
 "{{ condition.message }}. Timestamp: {{ condition.lastTransitionTime }} Error "
 "count: {{ condition.generation }}"
 msgstr ""
+"{{ condition.message }}。时间戳：{{ condition.lastTransitionTime }} 错误计"
+"数：{{ condition.generation }}"
 
 #~ msgid "Creating this bond will break the connection to the server, "
 #~ msgstr "创建该绑定接口将会中断与服务器的连接，"
